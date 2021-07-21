@@ -27,7 +27,7 @@ if(app.get('env')==='development'){
 }
 
 //Trabajos con la Bd
-debug('conectando con la BD');
+//debug('conectando con la BD');
 
 app.get('/', (req, res)=>{
     res.send("Hola Mundo desde Express");
