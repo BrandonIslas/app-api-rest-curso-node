@@ -3,7 +3,6 @@ const debug = require('debug')('app:inicio');
 const express= require('express');
 const app =express();
 const config = require('config');
-const Joi = require('joi');
 const morgan = require('morgan');
 
 const usuarios = require('./routes/usuarios');
